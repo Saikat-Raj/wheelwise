@@ -9,6 +9,17 @@
 <body>
     <h1>Welcome to WheelWise!</h1>
     <p>Your car comparison tool.</p>
+
+    <form action="/compare" method="post">
+        <label for="brand">Select a Brand:</label>
+        <input type="text" id="brand" name="brand" required>
+        <br>
+        <label for="model">Select a Model:</label>
+        <input type="text" id="model" name="model" required>
+        <br>
+        <button type="submit">Compare</button>
+    </form>
+
 </body>
 
 </html>
